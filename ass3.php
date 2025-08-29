@@ -79,7 +79,7 @@ body{
   tfoot td{font-weight:800; text-align:center}
   .toolbar{display:flex; justify-content:flex-end; margin:10px 4px 14px}
   .print{border:none; padding:10px 16px; border-radius:999px; background:#111; color:#fff; cursor:pointer}
-  @media print{
+   print{
     body{background:#fff}
     .controls,.toolbar{display:none !important}
     .card{box-shadow:none}
